@@ -88,8 +88,8 @@ production:
   primary: &primary_production
     <<: *default
     database: micro_trail_production
-    username: micro_trail
-    password: <%= ENV["MICRO_TRAIL_DATABASE_PASSWORD"] %>
+    username: postgres
+    password: 0754176555
   cache:
     <<: *primary_production
     database: micro_trail_production_cache
